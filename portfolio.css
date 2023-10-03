@@ -185,10 +185,18 @@ box-shadow: 0 0 5px pink,
   border-radius: 200px;
   border: 8px solid pink;
    box-shadow: 0 0 150px pink;
- 
+    animation: floating 3s ease-in-out infinite;
+    margin-left: 30px;
+    margin-top: 5px;
+  
 }
-
-@keyframes slideRight {
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+ @keyframes slideRight {
   0%{
    transform: translateX(-100px);
     opacity: 0;
