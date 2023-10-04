@@ -363,6 +363,13 @@ align-items: center;
 justify-content: center;
 }
 
+.Python{
+   background: yellow;
+   margin-top:5px;
+margin-bottom:10px;
+animation: Python 1s linear forwards;
+}
+
 .html{
    background: orange;
    margin-top:5px;
@@ -378,18 +385,17 @@ margin-bottom:10px;
 animation: css 1s linear forwards;
 }
 
-.javascript{
+.JavaScript{
    background: green;
    margin-top:5px;
 margin-bottom:10px;
-animation: javascript 1s linear forwards;
+animation: JavaScript 1s linear forwards;
 }
 
-.Python{
-   background: yellow;
-   margin-top:5px;
-margin-bottom:10px;
-animation: Python 1s linear forwards;
+
+
+.Python span{
+  border: 1px solid yellow;
 }
 
 .html span{
@@ -400,38 +406,37 @@ animation: Python 1s linear forwards;
   border: 1px solid aqua;
 }
 
-.javascript span{
+.JavaScript span{
   border: 1px solid green;
 }
 
-.Python span{
-  border: 1px solid yellow;
-}
+
 
 .bar{
   margin-top: 20px;
   margin-left: 105px;
 }
 
+@keyframes Python{
+   100%{
+    width: 30%;
+  }
+} 
+
 @keyframes html{
    100%{
-    width: 95%;
+    width: 91%;
   }
 } 
 
 @keyframes css{
    100%{
-    width: 91%;
+    width: 90%;
   }
 }  
-@keyframes javascript{
+@keyframes JavaScript{
    100%{
     width: 50%;
-  }
-}  
-@keyframes Python{
-   100%{
-    width: 60%;
   }
 } 
 
